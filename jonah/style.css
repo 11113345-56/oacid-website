@@ -1,0 +1,145 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #002147;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo img {
+  max-height: 80px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #eaeaea;
+  padding: 40px;
+  text-align: center;
+}
+
+section {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.objectives ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.value-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.value-grid div {
+  background-color: #dbe2ef;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #002147;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+header {
+  background-color: #002147;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo-nav img {
+  max-width: 180px;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #002147;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d62828;
+}
+section h3 {
+  color: #002147;
+  margin-bottom: 10px;
+}
+
+section p {
+  line-height: 1.6;
+}
